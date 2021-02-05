@@ -1,0 +1,53 @@
+.column1 {
+	COLOR: #444444; FONT-WEIGHT: bold
+}
+.form_table {
+	BACKGROUND-COLOR: #88c4ff
+}
+.form_table TH {
+	BACKGROUND-COLOR: #5eaeff; COLOR: #ffffff
+}
+.show_table {
+	BACKGROUND-COLOR: #6fb7ff
+}
+.form_table TD {
+	BACKGROUND-COLOR: #ffffff
+}
+.show_table TD {
+	BACKGROUND-COLOR: #ffffff
+}
+
+.form_table2 {
+	BACKGROUND-COLOR: #bbbbbb
+}
+.form_table2 TH {
+	BACKGROUND-COLOR:#CCCCCC; COLOR: #ffffff
+}
+.show_table2 {
+	BACKGROUND-COLOR: #6fb7ff
+}
+.form_table2 TD {
+	BACKGROUND-COLOR: #ffffff
+}
+.show_table2 TD {
+	BACKGROUND-COLOR: #ffffff
+}
+
+.form_table3 {
+	BACKGROUND-COLOR: #FFCC99
+}
+.form_table3 TH {
+	BACKGROUND-COLOR: #FF9966; COLOR: #ffffff
+}
+.show_table3 {
+	BACKGROUND-COLOR: #6fb7ff
+}
+.form_table3 TD {
+	BACKGROUND-COLOR: #ffffff
+}
+.show_table3 TD {
+	BACKGROUND-COLOR: #ffffff
+}
+
+
+

@@ -1,0 +1,16 @@
+.form_table {
+	BACKGROUND-COLOR: #FFCC99
+}
+.form_table TH {
+	BACKGROUND-COLOR: #FF6633; COLOR: #ffffff
+}
+.show_table {
+	BACKGROUND-COLOR: #6fb7ff
+}
+.form_table TD {
+	BACKGROUND-COLOR: #ffffff
+}
+.show_table TD {
+	BACKGROUND-COLOR: #ffffff
+}
+

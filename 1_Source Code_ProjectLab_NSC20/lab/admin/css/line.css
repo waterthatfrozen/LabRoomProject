@@ -1,0 +1,59 @@
+a{
+	font-size:24px;
+	color:#000099;
+}
+a.hover_unterline{
+    position:relative;
+    text-decoration:none;
+    cursor:pointer;
+	font-size:24px;
+	color:#000099;
+}
+a.hover_unterline::after {
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    position:absolute;
+    left:100%;
+    right:0;
+    bottom:0px;
+    z-index:1;
+    content:"";
+    height:1px;
+    background:#0000FF;
+}
+a.hover_unterline:hover::after,
+a.hover_unterline.active::after {
+    left:0;
+	right:0;
+}
+
+a.hover_unterline2{
+    position:relative;
+    text-decoration:none;
+    cursor:pointer;
+	font-size:24px;
+	color:#000099;
+}
+a.hover_unterline2::after {
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    position:absolute;
+    left:100%;
+    right:0;
+    bottom:0px;
+    z-index:1;
+    content:"";
+    height:1px;
+    background:#ffffff;
+}
+a.hover_unterline2:hover::after,
+a.hover_unterline2.active::after {
+    left:0;
+	right:0;
+}

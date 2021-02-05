@@ -1,0 +1,231 @@
+html,
+body {
+  margin: 1px;
+  padding: 1px;
+  border: 0px;
+  outline: 0 none;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	  background: #251d3a;
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 5px;
+  border: 2px solid #19112d;
+  position: relative;
+}
+
+.clock-container:before,
+.clock-container:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.clock-container {
+  margin: 10px auto;
+  width: 420px;
+}
+
+.minutes,
+.seconds,
+.milliseconds,
+.hours {
+  height: 50px;
+  width: 90px;
+  float: left;
+  margin: 5px;
+  position: relative;
+  border: 2px solid #19112d;
+  overflow: hidden;
+}
+
+.hours-list,
+.minutes-list,
+.seconds-list,
+.milliseconds-list {
+  list-style-type: none;
+  margin-top: 10px;
+    margin-bottom: 10px;
+margin-left:0px;
+margin-right:0px;
+  padding: 0;
+}
+
+.hours-list li,
+.minutes-list li,
+.seconds-list li,
+.milliseconds-list li {
+  display: block;
+  height: 50px;
+  font-size: 45px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 12px;
+  letter-spacing: 15px;
+}
+
+.hours-list {
+  -webkit-animation: ani-3 43200s steps(12, end) 0s infinite paused;
+  animation: ani-3 43200s steps(12, end) 0s infinite paused;
+}
+
+.minutes-list {
+  -webkit-animation: ani-1 3600s steps(60, end) 0s infinite paused;
+  animation: ani-1 3600s steps(60, end) 0s infinite paused;
+}
+
+.seconds-list {
+  -webkit-animation: ani-1 60s steps(60, end) 0s infinite paused;
+  animation: ani-1 60s steps(60, end) 0s infinite paused;
+}
+
+.milliseconds-list {
+  -webkit-animation: ani-2 1s steps(100, end) 0s infinite paused;
+  animation: ani-2 1s steps(100, end) 0s infinite paused;
+}
+
+@-webkit-keyframes ani-1 {
+  to {
+    transform: translateY(-3000px);
+  }
+}
+
+@keyframes ani-1 {
+  to {
+    transform: translateY(-3000px);
+  }
+}
+
+@-webkit-keyframes ani-2 {
+  to {
+    transform: translateY(-5000px);
+  }
+}
+
+@keyframes ani-2 {
+  to {
+    transform: translateY(-5000px);
+  }
+}
+
+@-webkit-keyframes ani-3 {
+  to {
+    transform: translateY(-600px);
+  }
+}
+
+@keyframes ani-3 {
+  to {
+    transform: translateY(-600px);
+  }
+}
+
+.watch {
+  width: 110px;
+  height: 110px;
+  background-color: transparent;
+  position: relative;
+  margin: 30px auto;
+  border: 5px solid white;
+  border-radius: 100px;
+}
+
+.minutes-hand {
+  width: 5px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: white;
+  position: absolute;
+  top: 7px;
+  left: 52.5px;
+  -webkit-animation: watch 2s linear 0s infinite paused;
+  animation: watch 2s linear 0s infinite paused;
+  transform-origin: 2px 47.5px;
+}
+
+.hours-hand {
+  width: 5px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: white;
+  position: absolute;
+  top: 16px;
+  left: 52.5px;
+  -webkit-animation: watch 5s linear 0s infinite paused;
+  animation: watch 5s linear 0s infinite paused;
+  transform-origin: 2px 37.5px;
+}
+
+@-webkit-keyframes watch {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes watch {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.start {
+  display: none;
+  opacity: 0;
+}
+
+.start-label {
+  border: 2px solid #19112d;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.2s;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  line-height: 42px;
+  margin: 20px auto;
+  text-align: center;
+  width: 128px;
+}
+
+.start-label:hover {
+  background: #19112d;
+}
+
+.start:checked ~ .clock-container .milliseconds .milliseconds-list {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.start:checked ~ .clock-container .seconds .seconds-list {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.start:checked ~ .clock-container .minutes .minutes-list {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.start:checked ~ .clock-container .hours .hours-list {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.start:checked ~ .watch .minutes-hand {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+.start:checked ~ .watch .hours-hand {
+  animation-play-state: running;
+  animation-play-state: running;
+}	

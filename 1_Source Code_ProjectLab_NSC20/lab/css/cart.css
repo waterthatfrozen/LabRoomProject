@@ -1,0 +1,38 @@
+.container {
+	position: relative;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.rcorners {
+    border-radius: 10px;
+    border: 2px solid #f3b86d;
+    padding: 20px;    
+}
+.rcorners2 {
+    border-radius: 10px;
+	border: 1px solid #FFFFFF;
+ 
+}
+.fontTH{
+	font-family:'Circular';
+	font-size:24px;
+}
+
+.table{
+    border: 1px solid black;
+	border-collapse: collapse;
+}
