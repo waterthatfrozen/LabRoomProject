@@ -6,6 +6,7 @@ This project was developed by Yiwsiw P., Khongkliang T. and Songserm S.
 under the provision by Tanompol A. and Tanompol S.
 
 Current project status: *DISCONTINUED*
+
 Last update date: *September 17th, 2018*
 
 About Project:
@@ -18,8 +19,11 @@ For more detailed project information and disclaimer,
 please go to the document folder (Folder number 4).
 
 Project Achievements:
+
 National Software Contest 2018 (NSC2018), NECTEC
+
 First Runner-up, Application Program Category.
 
 6th Torkla Camp, NECTEC and SCB Foundation
+
 1st Workshop Finisher.
