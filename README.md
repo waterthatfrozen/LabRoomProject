@@ -1,9 +1,8 @@
 # LabRoomProject
-## Project LabRoom
-## Science Laboratory Assistant and Management System
+Project LabRoom
+Science Laboratory Assistant and Management System
 
-This project was developed by Yiwsiw P., Khongkliang T. and Songserm S.
-under the provision by Tanompol A. and Tanompol S.
+This project was developed by Yiwsiw P., Khongkliang T. and Songserm S. under the provision by Tanompol A. and Tanompol S.
 
 Current project status: **DISCONTINUED**
 Last update date: **September 17th, 2018**
@@ -17,5 +16,4 @@ This project is developed in form of web application by using mainly PHP with My
 For more detailed project information and disclaimer, please go to the document folder (Folder number 4).
 
 ## Project Achievements
-National Software Contest 2018 (NSC2018), NECTEC
-**First Runner-up**, Application Program Category.
+**First Runner-up**, Student Application Program Category, National Software Contest 2018 (NSC2018), NECTEC.
